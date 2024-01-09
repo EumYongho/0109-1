@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            ul,li,ol {list-style: none; margin: 0; padding: 0;}
+
+            #wrap {width: 100%; height: 3000px; padding:0 0 50px 0px; margin: 0 auto;}
+
+            header {width: 100%; height: 150px; margin:0 auto;}
+            header #box {width: 100%; height: 100px; margin: 0 auto;}
+            header > #box > .logo {width: 100%; height: 50px; margin: 30px 0 0 40px; float: left;}
+            header > #box > .logo > a > img {width: 248px; height: 42px;}
+            
+            header #login {width: 500px; height: 30px; margin: -30px 0 0 0px; float:right;}
+            header #login ul {font-size: 15px;}
+            header #login ul li {float: left; margin: 0 5px;}
+
+            header nav{width: 100%; height: 50px; margin: 0 auto;}
+            header nav ul {width: 1200px;margin: 0 auto; height: 30px;}
+            header nav ul li {float: left; margin: 10px 32px; font-size: 21px; font-weight: bold;}
+
+            #slider {width: 790px; height: 327px; margin: 0 auto; }
+            #slider > a >img {width: 100%; height: 100%;}
+
+            #contents {width: 1100px; height: 600px; margin: 0 auto;}
+
+            #product {width: 900px; height: 200px; margin: 50px 0 0 100px; float: left;}
+
+            .new {width: 110px; height: 110px; margin: 20px 12px; float: left;}
+            .new > a > img {width: 100%; height: 100%;}
+            .new > a:hover {opacity: 0.3;}
+            
+            #product > div:nth-child(2){margin: 20px 15px 0 75px; float: left;}
+
+
+            #brand {width: 900px; height: 250px; margin: 50px 0 0 100px; float: left;}
+
+            .best{width: 180px; height: 170px; margin: 20px 10px; float: left;}
+            .best > a > img {width: 100%; height: 100%;}
+            .best > a:hover {opacity: 0.3;}
+
+            #brand > div:nth-child(2){margin: 20px 10px 0 60px; float: left;}
+
+
+            #contents h3 {text-align: center;}
+
+    #newproduct {width:1200px; height:950px; margin:0 auto; #666;}
+    #newproduct > h3 {text-align:center; padding:20px 0px; font-size:30px; text-transfotm:uppercase;}
+
+
+    #newproduct > .box {width:230px; height:350px; margin:20px; float:left; box-shadow:4px 4px 4px #ddd; border:1px solid #ddd; padding:10px;}
+
+    #newproduct > div:nth-of-type(1) {margin: 20px 10px 0 40px;}
+
+    #newproduct > div:nth-of-type(5) {margin: 20px 10px 0 40px;}
+
+    #newproduct > div:nth-of-type(9) {margin: 20px 10px 0 40px;}
+
+    #newproduct > div:nth-of-type(13) {margin: 20px 10px 0 40px;}
+
+
+    #newproduct>.box>a>img {width:100%; height:200px;}
+    #newproduct>.box:hover {opacity:0.3;}
+    #newproduct>.box>h4>a {font-size:23px; color:red;}
+    #newproduct>.box>p>a {font-size:16px;}
+    #newproduct>.box>button {border:none; background-color:tomato; color:#fff; padding:2px; font-size:15px;}
+
+            
+            
+        </style>
+        </head>
+        <body>
+
+            <div id="wrap">
+
+                <header>
+                    <div id="box">
+                        <div class="logo"><a href="#"><img src="img/logo.png"></a></div>
+                        <div id="login">
+                            <ul>
+                                <li>회원가입</li>
+                                <li>|</li>
+                                <li>로그인</li>
+                                <li>|</li>
+                                <li>장바구니</li>
+                                <li>|</li>
+                                <li>주문배송</li>
+                                <li>|</li>
+                                <li>고객센터</li>
+                                <li>|</li>
+                                <li>매장안내</li>
+                                <li>|</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>오특</li>
+                            <li>랭킹</li>
+                            <li>LUXE EDIT</li>
+                            <li>기획전</li>
+                            <li>세일</li>
+                            <li>기프트카드</li>
+                            <li>멤버십/쿠폰</li>
+                            <li>이벤트</li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div id="slider"><a href="slider"><img src="img/slider.jpg"></a></div>
+
+                <section id="contents">
+
+                    <article id="product">
+                        <h3>신상품</h3>
+
+                        <div class="new"><a href="new"><img src="img/new1.jpg"></a></div>
+
+                        <div class="new"><a href="new"><img src="img/new2.jpg"></a></div>
+
+                        <div class="new"><a href="new"><img src="img/new3.jpg"></a></div>
+
+                        <div class="new"><a href="new"><img src="img/new4.jpg"></a></div>
+
+                        <div class="new"><a href="new"><img src="img/new5.jpg"></a></div>
+
+                        <div class="new"><a href="new"><img src="img/new6.jpg"></a></div>
+
+                    </article>
+
+                    <article id="brand">
+                        <h3>베스트</h3>
+
+                        <div class="best"><a href="best"><img src="img/best1.jpg"></a></div>
+
+                        <div class="best"><a href="best"><img src="img/best2.jpg"></a></div>
+
+                        <div class="best"><a href="best"><img src="img/best3.jpg"></a></div>
+
+                        <div class="best"><a href="best"><img src="img/best4.jpg"></a></div>
+                    </article>
+                </section>
+
+                    <div id="newproduct">
+                        <h3>클렌징 폼/젤</h3>
+
+                
+                        <div class="box">
+                        <a herf="#"><img src="img/oo1.jpg" alt="클렌징1"></a>
+                        <p><a herf="#">[2023 어워즈/3년 연속 1위]마녀공장 퓨어 클렌징 오일</a></p>
+                        <h4><a herf="#">31,400원</a></h4>
+                        <button>세일</button>
+                        </div>
+                
+                        <div class="box">
+                        <a herf="#"><img src="img/oo2.jpg" alt="클렌징2"></a>
+                        <p><a herf="#">[2023어워즈]바이오더마센시비오 H20 500ml</a></p>
+                        <h4><a herf="#">30,300원</a></h4>
+                        <button>세일</button>   <button>쿠폰</button>
+                        </div>
+                
+                        <div class="box">
+                        <a herf="#"><img src="img/oo3.jpg" alt="클렌징3"></a>
+                        <p><a herf="#">[2023어워즈][더블기획]바닐라코 클린잇제로</a></p>
+                        <h4><a herf="#">21,900원</a></h4>
+                        <button>세일</button>   <button>오늘드림</button>
+                        </div>
+
+                        <div class="box">
+                        <a herf="#"><img src="img/oo4.jpg" alt="클렌징4"></a>
+                        <p><a herf="#">[2023어워즈]비플레인 녹두 약산성 클렌징폼</a></p>
+                        <h4><a herf="#">26,000원</a></h4>
+                        <button>오늘드림</button>
+                        </div>
+
+                        <div class="box">
+                            <a herf="#"><img src="img/oo5.jpg" alt="클렌징4"></a>
+                            <p><a herf="#">[온라인/단독기획]파파레서피 블레미쉬</a></p>
+                            <h4><a herf="#">27,360원</a></h4>
+                            <button>세일</button>   <button>쿠폰</button>   <button>증정</button>
+                            </div>
+
+                            <div class="box">
+                                <a herf="#"><img src="img/oo6.jpg" alt="클렌징4"></a>
+                                <p><a herf="#">[2023어워즈]라운드어라운드 그린티</a></p>
+                                <h4><a herf="#">17,500원</a></h4>
+                                <button>세일</button>   <button>오늘드림</button>
+                                </div>
+
+                            <div class="box">
+                                <a herf="#"><img src="img/oo7.jpg" alt="클렌징4"></a>
+                                <p><a herf="#">[피지쏙]아누아 어성초 포어 컨트롤 클렌징오일</a></p>
+                                <h4><a herf="#">29,900원</a></h4>
+                                <button>오늘드림</button>
+                                </div>
+
+                                <div class="box">
+                                <a herf="#"><img src="img/oo8.jpg" alt="클렌징4"></a>
+                                <p><a herf="#">메디필 레드 락토 콜라겐 클리어 폼 2.0</a></p>
+                                <h4><a herf="#">12,500원</a></h4>
+                                <button>세일</button>   <button>쿠폰</button>
+                                </div>
+                                
+                            <div class="box">
+                                <a herf="#"><img src="img/oo9.jpg" alt="클렌징4"></a>
+                                <p><a herf="#">[단종증량기획]라씨엘르 엔자민 곡물 클렌징</a></p>
+                                <h4><a herf="#">15,960원</a></h4>
+                                <button>세일</button>   <button>쿠폰</button>
+                                </div>
+
+                                    
+                                    <div class="box">
+                                        <a herf="#"><img src="img/oo10.jpg" alt="클렌징4"></a>
+                                        <p><a herf="#">[피지순삭]넘버즈인 1번 말끔 순삭 클렌징오일</a></p>
+                                        <h4><a herf="#">32,000원</a></h4>
+                                        <button>증정</button>   <button>오늘드림</button>
+                                        </div>
+
+                                        <div class="box">
+                                        <a herf="#"><img src="img/oo11.jpg" alt="클렌징4"></a>
+                                        <p><a herf="#">라로슈포제 똘러리앙 포밍클렌저125ml</a></p>
+                                        <h4><a herf="#">39,200원</a></h4>
+                                        <button>세일</button>   <button>증정</button>
+                                        </div>
+
+                                            <div class="box">
+                                            <a herf="#"><img src="img/oo12.jpg" alt="클렌징4"></a>
+                                            <p><a herf="#">[민카롱PICK]마녀공장 퓨어&딥 클렌징</a></p>
+                                            <h4><a herf="#">12,000원</a></h4>
+                                            <button>오늘드림</button>
+                                            </div>
+
+                                            <div class="box">
+                                            <a herf="#"><img src="img/oo13.jpg" alt="클렌징4"></a>
+                                            <p><a herf="#">[민카롱PICK]메디필 엑스트라 슈퍼9 플러스</a></p>
+                                            <h4><a herf="#">14,900원</a></h4>
+                                            <button>세일</button>   <button>오늘드림</button>
+                                            </div>
+                    
+                                            <div class="box">
+                                            <a herf="#"><img src="img/oo14.jpg" alt="클렌징4"></a>
+                                            <p><a herf="#">닥터지 브라이트닝 필링젤 120g</a></p>
+                                            <h4><a herf="#">21,000원</a></h4>
+                                            <button>오늘드림</button>                                               
+                                            </div>
+
+                                            <div class="box">
+                                            <a herf="#"><img src="img/oo15.jpg" alt="클렌징4"></a>
+                                            <p><a herf="#">[단독기획]토리든 다이브인저분자 히알루론산 클렌징</a></p>
+                                            <h4><a herf="#">18,200원</a></h4>
+                                            <button>세일</button>   <button>오늘드림</button>
+                                            </div>
+
+                                            <div class="box">
+                                            <a herf="#"><img src="img/oo16.jpg" alt="클렌징4"></a>                                                            
+                                            <p><a herf="#">[피지쏙]아누아 어성초 포어 컨트롤 클렌징오일</a></p>
+                                            <h4><a herf="#">17,000원</a></h4>
+                                            <button>세일</button>   <button>오늘드림</button>
+                                            </div>
+                <footer>
+                    <div id="box"></div>
+                </footer>
+            </div>
+        </body>
+</html>
